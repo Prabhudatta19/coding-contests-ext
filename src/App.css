@@ -1,0 +1,49 @@
+#root {
+  text-align: center;
+  margin-block: 0;
+  font-size: 1rem;
+}
+
+.title{
+  background-color: black;
+  color: antiquewhite;
+  padding: 2%;
+}
+
+.list{
+  list-style: none;
+  margin-block: 0;
+  padding-inline-start: 0;
+}
+
+.list-item{
+  background-color: bisque;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  max-height: 20vh;
+}
+
+.item-name{
+  width: 20%;
+  font-weight: 700;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.item-dates{
+  width: 40%;
+}
+
+.item-host{
+  width: 30%;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.item-link{
+  width: 10%;
+}

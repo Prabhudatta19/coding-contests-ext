@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Coding Contests Schedule",
+    "version": "1.0",
+    "description": "Shows upcoming and current coding contests and hackathons, and provides notifications.",
+    "permissions": ["notifications", "alarms", "storage"],
+    "action": {
+    "default_popup": "index.html"
+    }
+}
